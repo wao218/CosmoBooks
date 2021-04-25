@@ -101,14 +101,13 @@
 		2B2E9F0D2635D4D3009A3631 /* CosmoBooks */ = {
 			isa = PBXGroup;
 			children = (
-				2B2E9F0E2635D4D3009A3631 /* AppDelegate.swift */,
-				2B2E9F102635D4D3009A3631 /* SceneDelegate.swift */,
-				2B2E9F122635D4D3009A3631 /* ViewController.swift */,
-				2B2E9F142635D4D3009A3631 /* Main.storyboard */,
-				2B2E9F1A2635D4D4009A3631 /* Assets.xcassets */,
-				2B2E9F1C2635D4D4009A3631 /* LaunchScreen.storyboard */,
+				2B2E9F492635D5C9009A3631 /* Resources */,
+				2B2E9F482635D5BE009A3631 /* Services */,
+				2B2E9F472635D54C009A3631 /* Controllers */,
+				2B2E9F462635D545009A3631 /* Models */,
+				2B2E9F452635D536009A3631 /* Views */,
+				2B2E9F442635D524009A3631 /* ViewModels */,
 				2B2E9F1F2635D4D4009A3631 /* Info.plist */,
-				2B2E9F172635D4D3009A3631 /* CosmoBooks.xcdatamodeld */,
 			);
 			path = CosmoBooks;
 			sourceTree = "<group>";
@@ -129,6 +128,63 @@
 				2B2E9F352635D4D4009A3631 /* Info.plist */,
 			);
 			path = CosmoBooksUITests;
+			sourceTree = "<group>";
+		};
+		2B2E9F442635D524009A3631 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B2E9F452635D536009A3631 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E9F142635D4D3009A3631 /* Main.storyboard */,
+				2B2E9F1C2635D4D4009A3631 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B2E9F462635D545009A3631 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E9F4A2635D631009A3631 /* Core Data */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B2E9F472635D54C009A3631 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E9F122635D4D3009A3631 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B2E9F482635D5BE009A3631 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2B2E9F492635D5C9009A3631 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E9F1A2635D4D4009A3631 /* Assets.xcassets */,
+				2B2E9F102635D4D3009A3631 /* SceneDelegate.swift */,
+				2B2E9F0E2635D4D3009A3631 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B2E9F4A2635D631009A3631 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E9F172635D4D3009A3631 /* CosmoBooks.xcdatamodeld */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
