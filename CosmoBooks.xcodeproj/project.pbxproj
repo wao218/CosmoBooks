@@ -131,7 +131,6 @@
 				2B2E9F492635D5C9009A3631 /* Resources */,
 				2B2E9F482635D5BE009A3631 /* Services */,
 				2B2E9F462635D545009A3631 /* Models */,
-				2B2E9F442635D524009A3631 /* ViewModels */,
 				2B2E9F452635D536009A3631 /* Views */,
 				2B2E9F472635D54C009A3631 /* Controllers */,
 				2B2E9F1F2635D4D4009A3631 /* Info.plist */,
@@ -155,13 +154,6 @@
 				2B2E9F352635D4D4009A3631 /* Info.plist */,
 			);
 			path = CosmoBooksUITests;
-			sourceTree = "<group>";
-		};
-		2B2E9F442635D524009A3631 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		2B2E9F452635D536009A3631 /* Views */ = {
